@@ -1,0 +1,106 @@
+
+#outer{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#header{
+    border: 3px solid yellowgreen;
+    padding: 40px;
+    text-align: right;
+}
+#hero{
+    width: 20%;
+    background-color: yellowgreen;
+    height: 85vh;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+}
+
+#txt-todolist{
+    color: rgb(135, 135, 236);
+}
+
+#history{
+    font-weight: 500;
+}
+
+#btn-logout{
+    width: 19.5%;
+    border: none;
+    background: transparent;
+    font-size: larger;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 1px;
+    position: absolute;
+    bottom: 10%;
+    left: 10px;
+}
+#btn-logout:hover{
+    border: 1px solid rgb(92, 131, 27);
+}
+#body{
+    width: 80%;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    text-align: left;
+    /* display: inline-block; */
+    float: right;
+}
+#search{
+    border-radius: 5px;
+    border-color: rgb(136, 181, 57);
+    font-size: large;
+    color: rgb(57, 75, 26) ;
+    padding: 10px;
+}
+
+#addtodo{
+    box-sizing: border-box;
+    float: right;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+#add{
+    border-radius: 5px;
+    border-color: rgb(136, 181, 57);
+    background-color: rgb(190, 242, 101);
+    font-size: large;
+    color: rgb(57, 75, 26) ;
+    padding: 10px;
+}
+#add:hover{
+    background-color: rgb(130, 196, 15);
+}
+table{
+    position: inherit;
+    width: 80%;
+    margin: 100px auto;
+}
+
+table, th, td{
+    border: 2px solid gray;
+    border-collapse: collapse;
+}
+th{
+    font-size: larger;
+    padding: 5px;
+    background-color: rgb(195, 195, 247);
+}
+td{
+    font-size: large;
+    padding: 5px;
+}
+.btngroup{
+    font-size: medium;
+    text-transform: uppercase;
+    margin-left: 5px;
+    background-color: rgb(218, 241, 177);
+    padding: 2px 10px;
+}
+.btngroup:hover{
+    background-color: rgb(130, 196, 15);
+}

@@ -1,0 +1,74 @@
+#login-outer{
+    width: 60%;
+    height: auto;
+    background-color: rgb(228, 91, 27);
+    box-sizing: border-box;
+    margin: 100px auto;
+    padding: 70px;
+}
+#profile-pic{
+    display: block;
+    background-image: url("../img/profile.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: 50%;
+    width: 120px;
+    height: 120px;
+    background-color: yellowgreen;
+    margin: -70px auto;
+    border-radius: 50%;
+}
+.inner-div{
+    background-color: white;
+    box-sizing: border-box;
+    padding: 30px;
+    text-align: center;
+    align-content: center;
+}
+.input-box{
+    width: 80%;
+    line-height: 20px;
+    display: block;
+    margin: 15px auto;
+    padding: 10px;
+    background-color: rgb(240, 239, 239);
+    text-align: center;
+    font-size: large;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.input-box:focus{
+    background-color: rgba(193, 188, 188, 0.759);
+}
+
+#login-btn{
+    width: 83%;
+    padding: 12px;
+    background-color: rgb(142, 196, 250); 
+    font-size: larger;  
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#login-btn:hover{
+    background-color: rgb(100, 173, 245); 
+}
+
+.forget-pass{
+    width: auto;
+    padding: 12px;
+    margin: 15px;
+    background-color: transparent;
+    border: none;
+    font-size: larger;
+    color: red;
+}
+.forget-pass:hover{
+    background-color: transparent;
+    border: 1px solid red;
+}
+
+.header-txt{
+    margin-top: 90px;
+}
