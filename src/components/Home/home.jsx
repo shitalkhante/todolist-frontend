@@ -11,7 +11,7 @@ export const Home = () => {
     const navigate = useNavigate();
 
     async function fetchData(){
-       await axios.get("https://todo-list-api-nodejs.herokuapp.com/gettodos",{headers:{
+       await axios.get("https://todo-api-gohi.onrender.com/gettodos",{headers:{
             key:window.localStorage.getItem("token")
         }}).then(async(data) => {
             return data;
@@ -34,7 +34,7 @@ export const Home = () => {
         }, [])
 
     const addtask=async()=> {
-        await axios.post("https://todo-list-api-nodejs.herokuapp.com/inserttodos",{todo:activity},{headers:{
+        await axios.post("https://todo-api-gohi.onrender.com/inserttodos",{todo:activity},{headers:{
             key:window.localStorage.getItem("token")
         }}).then((res) => {
             console.log(res);
